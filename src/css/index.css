@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.btn {
+	@apply relative px-4 py-[5px] text-black rounded-md font-bold tracking-wide;
+}
+
+.card-shadow {
+	box-shadow: 5px 5px rgb(12, 12, 12);
+}
+
+.course-duration::before {
+	position: absolute;
+	content: '';
+	background: #f0e914;
+	height: 24px;
+	width: 24px;
+	/* Added lines */
+	top: 0.2rem;
+	right: 2rem;
+	transform: rotate(45deg);
+	z-index: -1;
+}
+
+.btn-shadow {
+	box-shadow: 4px 4px rgb(12, 12, 12);
+}
+
+.star-shadow {
+	box-shadow: 10px black;
+}
