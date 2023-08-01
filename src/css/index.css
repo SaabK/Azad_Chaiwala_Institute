@@ -4,8 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Roboto', sans-serif !important;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
 
 .btn {
@@ -35,4 +46,21 @@ body {
 
 .star-shadow {
 	box-shadow: 10px black;
+}
+
+.scroll-bar::-webkit-scrollbar {
+	width: 10px;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+	background: #0ca1f4;
+	border-radius: 9999px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+	background: #0a8bd0;
+	border-radius: 9999px;
 }

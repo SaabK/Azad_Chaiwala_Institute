@@ -1,0 +1,16 @@
+import GoogleMap from "./GoogleMap";
+import Introduction from "./Introduction";
+
+function Location() {
+  return (
+    <div className=" container flex flex-col py-8">
+      <h1 className="text-5xl font-bold self-center border-b-4 border-dark pb-1 capitalize">Join us today</h1>
+      <div className="my-10 grid grid-cols-3 gap-10 items-center overflow-hidden">
+        <Introduction />
+        <GoogleMap />
+      </div>
+    </div>
+  )
+}
+
+export default Location;

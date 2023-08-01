@@ -23,3 +23,15 @@ export type TestimonialPropsType = {
   location: string,
   picture: string
 }
+
+export type ParentsReviewsPropsType = {
+  name: string,
+  picture: string,
+  review: string
+}
+
+export type CardPropsType = {
+  name: string,
+  picture: string,
+  review: string
+}
