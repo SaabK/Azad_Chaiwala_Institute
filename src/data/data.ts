@@ -125,3 +125,29 @@ function generateImages(baseUrl: string, n: number): string[] {
 
   return arr;
 }
+
+export const comparisonData = {
+  university: [
+    'Ratta',
+    'Theory',
+    'Obsolete Syllabus',
+    '24 - 72 Months',
+    'Become Nothing',
+    'Zero Demand',
+    'Not Job Ready',
+    'No ROI',
+  ],
+  institute: [
+    'Education',
+    'Practical',
+    'Latest Syllabus',
+    '1 - 2.5 Months',
+    'Become Skillful',
+    'Market Demand',
+    'Job Ready',
+    'Instant ROI'
+  ],
+  number: [
+    '1', '2', '3', '4', '5', '6', '7', '8'
+  ]
+};

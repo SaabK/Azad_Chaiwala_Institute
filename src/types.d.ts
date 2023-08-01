@@ -35,3 +35,15 @@ export type CardPropsType = {
   picture: string,
   review: string
 }
+
+export type IconPropsType = {
+  icon: string,
+  followers: string,
+  href?: string
+}
+
+export type Icon2PropsType = {
+  href: string,
+  src: string,
+  classNames?: string
+}
