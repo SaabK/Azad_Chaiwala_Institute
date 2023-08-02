@@ -13,7 +13,9 @@ export type CoursesCardPropsType = {
   price: number,
   image: string,
   yellowImage?: string,
-  duration: string
+  duration: string,
+  className?: string,
+  big: boolean
 }
 
 export type TestimonialPropsType = {

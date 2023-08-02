@@ -138,9 +138,9 @@ function Footer() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2">
           <div className="mb-6">
-            <h5 className="mb-2.5 font-bold uppercase pl-20">Links</h5>
+            <h5 className="mb-2.5 font-bold uppercase text-left">Links</h5>
 
-            <ul className="mb-0 list-none pl-20">
+            <ul className="mb-6 list-none">
               <li className="text-left">
                 <a href="#!" className="text-white/90 underline">Know more about Azad Chaiwala</a>
               </li>
@@ -161,9 +161,9 @@ function Footer() {
 
 
           <div className="mb-6">
-            <h5 className="mb-2.5 font-bold uppercase pl-20 text-left">Links</h5>
+            <h5 className="mb-2.5 font-bold uppercase text-left">Links</h5>
 
-            <ul className="mb-0 list-none pl-20">
+            <ul className="mb-0 list-none ">
               <li className="text-left">
                 <a href="#!" className="text-white/90 underline">Contact Azad Chaiwala's PR eam</a>
               </li>
@@ -185,8 +185,8 @@ function Footer() {
         className="p-4 text-center"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
         © 2023 Copyright:
-        <a className="text-white" href="https://tailwind-elements.com/"
-        >Tailwind Elements</a>
+        <a className="text-white" href="https://azadchaiwala.com/"
+        >Azad Chaiwala Institute 2023</a>
       </div>
     </footer>
   )

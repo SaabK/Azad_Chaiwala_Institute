@@ -6,7 +6,16 @@ import Location from "./Components/Location";
 import Benefits from "./Components/Benefits";
 import Footer from "./Components/Footer";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import { useContext } from 'react';
+import { ModalContext } from "./Context/ModalContext";
+import Modal from "./Components/Modal";
+
 function App() {
+
+  const { isOpen } = useContext(ModalContext)
+
   return (
     <>
       <Navbar />
@@ -17,6 +26,7 @@ function App() {
         <Location />
         <Benefits />
         <Footer />
+        {isOpen && <Modal />}
       </main>
     </>
   )

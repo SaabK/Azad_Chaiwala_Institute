@@ -21,7 +21,8 @@ function Navbar() {
   return (
     <div className='bg-dark text-white'>
       <header className='container flex justify-between items-center py-1.5'>
-        <div className='flex gap-3'>
+
+        <div className='flex gap-3 !hidden'>
           <a className='flex flex-col items-center'>
             <motion.img
               {...animation}
@@ -31,13 +32,17 @@ function Navbar() {
             <motion.img {...animation} src={whatsappIcon} alt="Call Us" className='h-8 rounded-full bg-yellow p-2 cursor-pointer' />
           </a>
         </div>
+
         <a href="/">
-          <img src={logo} alt="Azad Chaiwala Institute" className='h-14' />
+          <img src={logo} alt="Azad Chaiwala Institute" className='w-56 lg:h-14' />
         </a>
         <div>
-          <div className='flex gap-5 text-sm'>
-            <PrimaryButton text='Signup' />
+          <div className='flex gap-2 text-sm'>
+            <PrimaryButton text='Signup' className='' />
             <SecondaryButton text='Login' />
+          </div>
+          <div>
+
           </div>
         </div>
       </header>

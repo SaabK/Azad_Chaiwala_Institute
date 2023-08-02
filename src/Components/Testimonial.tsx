@@ -2,7 +2,7 @@ import { TestimonialPropsType } from '../types';
 
 function Testimonial({ title, review, name, location, picture }: TestimonialPropsType) {
   return (
-    <div className='relative bg-myBlue/20 my-10 p-7 rounded-lg flex flex-col gap-2 z-20 justify-between'>
+    <div className='relative bg-myBlue/20 p-7 rounded-lg flex flex-col gap-2 z-20 justify-between'>
       <h1 className='text-center text-2xl font-bold uppercase my-2'>{title}</h1>
       <p className='text-center text-black/90 mb-5'>"{review}"</p>
       <div className='flex flex-col mt-4 bg-myBlue/80 -m-7 rounded-b-lg p-3'>

@@ -20,7 +20,7 @@ img {
 }
 
 .btn {
-	@apply relative px-4 py-[5px] text-black rounded-md font-bold tracking-wide;
+	@apply relative text-black rounded-md font-bold tracking-wide text-[11px] py-0.5 px-3;
 }
 
 .card-shadow {
@@ -31,11 +31,11 @@ img {
 	position: absolute;
 	content: '';
 	background: #f0e914;
-	height: 24px;
-	width: 24px;
+	height: 20px;
+	width: 20px;
 	/* Added lines */
-	top: 0.2rem;
-	right: 2rem;
+	top: 0.3rem;
+	right: 1.7rem;
 	transform: rotate(45deg);
 	z-index: -1;
 }
@@ -50,9 +50,6 @@ img {
 
 .scroll-bar::-webkit-scrollbar {
 	width: 10px;
-}
-
-.scroll-bar::-webkit-scrollbar-track {
 }
 
 .scroll-bar::-webkit-scrollbar-thumb {

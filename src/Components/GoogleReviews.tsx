@@ -21,10 +21,10 @@ function Card({ name, review, picture }: CardPropsType) {
 
   return (
     <div className='bg-yellow/[0.11]  p-4 rounded-lg flex flex-col gap-3 justify-between'>
-      <div className='flex gap-4 items-start'>
-        <img src={picture} alt={name} className='w-12' />
+      <div className='flex gap-1 items-center'>
+        <img src={picture} alt={name} className='w-9' />
         <div>
-          <span>{name}</span>
+          <span className='text-[14px]'>{name}</span>
           <div className='flex gap-1'>
             <img src={star} className='w-4' />
             <img src={star} className='w-4' />
@@ -34,7 +34,7 @@ function Card({ name, review, picture }: CardPropsType) {
           </div>
         </div>
       </div>
-      <p>{review}</p>
+      <p className='text-[15px] justify'>{review}</p>
       <img src={googleIcon} className='w-16 self-end' alt="Google Review" />
     </div>
   )
