@@ -1,11 +1,3 @@
-import {
-  Input,
-  Ripple,
-  initTE,
-} from "tw-elements";
-
-initTE({ Input, Ripple });
-
 import { motion } from 'framer-motion';
 
 const animation = {
@@ -20,7 +12,7 @@ const animation = {
 function Footer() {
   return (
     <footer className="bg-neutral-900 text-center text-white">
-      <div className="container px-6 pt-6">
+      <div className="container pt-6">
         <div className="mb-6 flex justify-center">
           <motion.a
             {...animation}
@@ -104,12 +96,12 @@ function Footer() {
               <div className="relative md:mb-6" data-te-input-wrapper-init>
                 <input
                   type="text"
-                  className="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] text-neutral-200 outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  className="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] text-neutral-200 outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 border-2"
                   id="exampleFormControlInput1"
                   placeholder="Email address" />
                 <label
                   htmlFor="exampleFormControlInput1"
-                  className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-neutral-200 peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                  className="pointer-events-none absolute left-3 -top-[9px] mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] text-neutral-200 transition-all duration-200 ease-out  dark:text-neutral-200 dark:peer-focus:text-neutral-200 bg-neutral-900 px-1 text-[13px]"
                 >Email address
                 </label>
               </div>

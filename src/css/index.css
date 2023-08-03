@@ -20,7 +20,7 @@ img {
 }
 
 .btn {
-	@apply relative text-black rounded-md font-bold tracking-wide text-[11px] py-0.5 px-3;
+	@apply relative text-black rounded-md font-bold tracking-wide text-[11px] py-0.5 px-3 lg:text-[13px] lg:py-1 lg:px-3.5;
 }
 
 .card-shadow {
@@ -60,4 +60,21 @@ img {
 .scroll-bar::-webkit-scrollbar-thumb:hover {
 	background: #0a8bd0;
 	border-radius: 9999px;
+}
+
+.courses:nth-child(5n-1) {
+	grid-column: span 3;
+}
+
+.courses:nth-child(5n) {
+	grid-column: span 3;
+}
+
+@media (max-width: 1030px) {
+	.courses:nth-child(3n) {
+		grid-column: span 6 !important;
+	}
+	.courses:nth-child(3n) .under-courses {
+		flex-direction: row;
+	}
 }

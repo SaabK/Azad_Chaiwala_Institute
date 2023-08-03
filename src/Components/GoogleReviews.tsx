@@ -21,9 +21,9 @@ function Card({ name, review, picture }: CardPropsType) {
 
   return (
     <div className='bg-yellow/[0.11]  p-4 rounded-lg flex flex-col gap-3 justify-between'>
-      <div className='flex gap-1 items-center'>
+      <div className='flex gap-1 items-center xl:gap-3'>
         <img src={picture} alt={name} className='w-9' />
-        <div>
+        <div className=''>
           <span className='text-[14px]'>{name}</span>
           <div className='flex gap-1'>
             <img src={star} className='w-4' />

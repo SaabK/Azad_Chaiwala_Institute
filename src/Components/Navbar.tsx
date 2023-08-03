@@ -22,7 +22,7 @@ function Navbar() {
     <div className='bg-dark text-white'>
       <header className='container flex justify-between items-center py-1.5'>
 
-        <div className='flex gap-3 !hidden'>
+        <div className='hidden gap-3 lg:flex'>
           <a className='flex flex-col items-center'>
             <motion.img
               {...animation}
@@ -34,10 +34,10 @@ function Navbar() {
         </div>
 
         <a href="/">
-          <img src={logo} alt="Azad Chaiwala Institute" className='w-56 lg:h-14' />
+          <img src={logo} alt="Azad Chaiwala Institute" className='w-56 lg:w-80' />
         </a>
         <div>
-          <div className='flex gap-2 text-sm'>
+          <div className='flex gap-2 text-sm lg:gap-3 xl:gap-4'>
             <PrimaryButton text='Signup' className='' />
             <SecondaryButton text='Login' />
           </div>

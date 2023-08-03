@@ -9,13 +9,13 @@ import Icon from './Icon';
 
 function Platforms() {
   return (
-    <div className="flex flex-col justify-between gap-4 rounded-lg">
+    <div className="flex flex-col justify-between gap-4 rounded-lg lg:flex-row lg:items-center">
       <div>
         <h1 className="text-2xl font-bold uppercase">As seen on</h1>
         <img src={TVChannels} alt="As seen on" className='w-full' />
       </div>
       {/* <div className='border-l-2 border-myBlue/40 -my-10 self-stretch' /> */}
-      <div className='flex justify-between gap-6'>
+      <div className='flex justify-between gap-6 lg:gap-10 relative top-4'>
         <Icon href='https://www.facebook.com/AzadChaiwala/' icon={facebookIcon} followers='1.4 Million' />
         <Icon href='https://www.youtube.com/channel/UCM5QNdoIefx6eumjPk8ZTMw' icon={youtubeIcon} followers='1.4 Million' />
         <Icon href='https://www.tiktok.com/@azadchaiwalaofficial?lang=en' icon={tiktokIcon} followers='1 Million' />

@@ -2,7 +2,7 @@ import { comparisonData } from "../data/data";
 
 function Comparison() {
   return (
-    <div className="grid grid-cols-7 gap-2 py-4">
+    <div className="grid grid-cols-7 gap-2 py-4 xl:pb-0">
       <div className="col-span-3">
         <h1 className="text-center text-lg bg-black text-white py-1 font-bold rounded-tl-md mb-2">University</h1>
         <ul className="flex flex-col gap-2">

@@ -18,7 +18,6 @@ export const coursesData = [
     price: 59000,
     image: graphicsDesignCourseImg,
     yellowImage: graphicsDesignCourseImgYellow,
-    className: 'col-span-2 col-span-3',
   },
   {
     "popular": true,
@@ -29,7 +28,6 @@ export const coursesData = [
     "price": 149000,
     "image": webDevelopmentCourseImg,
     "yellowImage": webDevelopmentCourseImgYellow,
-    "className": "col-span-2 col-span-3"
   },
   {
     "name": "Video Filming & Editing Course",
@@ -38,8 +36,6 @@ export const coursesData = [
     "pr_price": 80000,
     "price": 59000,
     "image": videoEditingCourseImg,
-    "className": "col-span-2 col-span-6",
-    big: true
   },
   {
     "name": "Digital Marketing Course",
@@ -48,7 +44,6 @@ export const coursesData = [
     "pr_price": 200000,
     "price": 89000,
     "image": digitalMarketingCourseImg,
-    "className": "col-span-3 col-span-3"
   },
   {
     "name": "Advanced Computer Course",
@@ -57,7 +52,6 @@ export const coursesData = [
     "pr_price": 20000,
     "price": 10000,
     "image": computerCourseImg,
-    "className": "col-span-3 col-span-3"
   },
   {
     "name": "Python Course",
@@ -66,8 +60,6 @@ export const coursesData = [
     "pr_price": 300000,
     "price": 189000,
     "image": pythonCourseImg,
-    "className": "col-span-2 col-span-6",
-    big: true
   },
   {
     "name": "App Development Course",
@@ -76,7 +68,6 @@ export const coursesData = [
     "pr_price": 400000,
     "price": 249000,
     "image": appDevelopmentCourseImg,
-    "className": "col-span-2 col-span-3"
   },
   {
     "name": "Game Development Course",
@@ -85,7 +76,6 @@ export const coursesData = [
     "pr_price": 80000,
     "price": 59000,
     "image": gameDevelopmentCourseImg,
-    "className": "col-span-2 col-span-3"
   }
 
 ];
@@ -101,7 +91,7 @@ import zaheerHussain from '../assets/images/people/zaheer-hussain.webp';
 export const parentsReviewsData = [
   {
     name: 'Khalid',
-    review: 'With your guidance my son Mubashir Mehmood Awan has developed into a confident and capable child. Thank you for being such an important part in our child’s development. I am really happy with how our child has developed. You gave a good skill in Graphic Designing to our child. Thank you for your assistance, my son is very happy. Before Join your Insitute My son Learn from youtube but now join your Graphic Design course.He doing incredibly well, he always talks about your institute. Our Child has learned a lot from the very helpful and skilled teachers. I owe you my lifelong respect. ',
+    review: 'With your guidance my son Mubashir Mehmood Awan has developed into a confident and capable child. Thank you for being such an important part in our child’s development. I am really happy with how our child has developed. You gave a good skill in Graphic Designing to our child. Thank you for your assistance. Before Joining your Institute my son was learning from youtube but now join your Graphic Design course.He doing incredibly well, he always talks about your institute. Our Child has learned a lot from the very helpful and skilled teachers. I owe you my lifelong respect. ',
     picture: empty
   },
   {

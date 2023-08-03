@@ -15,7 +15,7 @@ export type CoursesCardPropsType = {
   yellowImage?: string,
   duration: string,
   className?: string,
-  big: boolean
+  big?: boolean
 }
 
 export type TestimonialPropsType = {
@@ -44,8 +44,3 @@ export type IconPropsType = {
   href?: string
 }
 
-export type Icon2PropsType = {
-  href: string,
-  src: string,
-  classNames?: string
-}
