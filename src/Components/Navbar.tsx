@@ -24,6 +24,7 @@ function Navbar() {
 
         <div className='hidden gap-3 lg:flex'>
           <a className='flex flex-col items-center'>
+            {/* //TODO: add the text animation */}
             <motion.img
               {...animation}
               src={phoneIcon} alt="Call Us" className='relative h-8 rounded-full bg-yellow p-2 cursor-pointer overflow-hidden z-10' />

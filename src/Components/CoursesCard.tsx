@@ -12,7 +12,7 @@ function CoursesCard({ popular, name, description, duration, pr_price, price, im
     <div className={`flex flex-col gap-2 bg-myBlue/60 rounded-lg relative card-shadow justify-between p-4 text-[14px] leading-5 xl:text-base xl:gap-3.5 col-span-3 courses lg:col-span-2 ${popular ? '!bg-yellow' : ''}  ${className}`}>
       <div className={`flex justify-between relative`}>
         <img src={popular ? yellowImage : image} alt="Graphics Design Course"
-          className={`w-20 h-14 -mt-14`} />
+          className={`w-20 h-14 -mt-14 lg:w-24 lg:h-[4.25rem] lg:-mt-16 xl:w-28 xl:h-20 2xl:w-32 2xl:h-[5.5rem] 2xl:-mt-20`} />
         {popular && <motion.img
           animate={{
             top: ['-3rem', '-3.4rem', '-3.8rem', '-3.4rem', '-3.0rem'],

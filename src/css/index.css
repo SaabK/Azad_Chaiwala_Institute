@@ -70,7 +70,7 @@ img {
 	grid-column: span 3;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1023px) {
 	.courses:nth-child(3n) {
 		grid-column: span 6 !important;
 	}
