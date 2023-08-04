@@ -26,7 +26,7 @@ function MiniNavbar() {
             key={tab.id}
             href=""
             onClick={(e) => handleClick(e, tab.id)}
-            className={`${active === tab.id ? 'text-black' : 'hover:text-[#ccc]'} relative py-1 px-3 mb-2 mt-1 text-[10px] xl:text-[14px]`}
+            className={`${active === tab.id ? 'text-black' : 'hover:text-[#ccc]'} relative py-1 px-2 mb-2 mt-1 text-center text-[10px] xl:text-[14px]`}
           >
             {active === tab.id ? <motion.div layoutId='active' className='absolute bg-[#F0E914] inset-0' style={{ borderRadius: '6px' }} transition={{ type: 'just' }} /> : null}
             <span className='relative z-10'>{tab.label}</span>

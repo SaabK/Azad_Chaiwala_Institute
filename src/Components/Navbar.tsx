@@ -22,20 +22,20 @@ function Navbar() {
     <div className='bg-dark text-white'>
       <header className='container flex justify-between items-center py-1.5'>
 
-        <div className='hidden gap-3 lg:flex'>
-          <a className='flex flex-col items-center'>
-            {/* //TODO: add the text animation */}
+        <div className='flex gap-1 md:gap-3'>
+          <a className='relative flex flex-col items-center group' target='_blank' href='tel:+92 304 1111361' >
             <motion.img
               {...animation}
-              src={phoneIcon} alt="Call Us" className='relative h-8 rounded-full bg-yellow p-2 cursor-pointer overflow-hidden z-10' />
+              src={phoneIcon} alt="Call Us" className='relative h-6 rounded-full bg-yellow p-1.5 cursor-pointer overflow-hidden z-10 md:h-8 md:p-2' />
+            <span className={`bg-[#2a2a2a] px-2 py-1 absolute font-bold text-sm -bottom-12 z-10 w-max text-white details hidden md:group-hover:flex`}>+92 304 1111361</span>
           </a>
-          <a>
-            <motion.img {...animation} src={whatsappIcon} alt="Call Us" className='h-8 rounded-full bg-yellow p-2 cursor-pointer' />
+          <a className='relative flex flex-col items-center group' href='https://wa.me/+923005558529?text=I%20want%20to%20know%20about%20courses%20you%20provide' target='_blank' aria-label="Chat on WhatsApp">
+            <motion.img {...animation} src={whatsappIcon} alt="Call Us" className=' relative h-6 rounded-full bg-yellow p-1.5 cursor-pointer overflow-hidden z-10 md:h-8 md:p-2' />
           </a>
         </div>
 
         <a href="/">
-          <img src={logo} alt="Azad Chaiwala Institute" className='w-56 lg:w-80' />
+          <img src={logo} alt="Azad Chaiwala Institute" className='w-44 lg:w-80' />
         </a>
         <div>
           <div className='flex gap-2 text-sm lg:gap-3 xl:gap-4'>

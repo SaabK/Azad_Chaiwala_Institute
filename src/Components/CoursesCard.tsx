@@ -21,7 +21,7 @@ function CoursesCard({ popular, name, description, duration, pr_price, price, im
           src={starIcon}
           alt="Popular Course"
           className='absolute w-8 right-[40%] xl:right-[46%]' />}
-        <span className={`bg-yellow px-2 absolute -right-5 top-[-2.8rem] font-bold course-duration z-10`}>{duration}</span>
+        <span className={`bg-yellow px-1 text-xs absolute -right-5 top-[-2.8rem] font-bold course-duration z-10 md:px-2 lg:text-base`}>{duration}</span>
       </div>
       <h1 className={`font-bold text-xl line-clamp-2 leading-6 xl:text-3xl xl:line-clamp-1`}>{name}</h1>
       <p className={`text-black/80 text-justify line-clamp-3`}>{description}</p>

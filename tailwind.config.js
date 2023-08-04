@@ -11,6 +11,15 @@ export default {
 			fontFamily: {
 				Roboto: ['Roboto', 'sans-serif'],
 			},
+			keyframes: {
+				growUp: {
+					'0%': { width: '2rem' },
+					'100%': { width: '10rem' },
+				},
+			},
+			animation: {
+				growUp: 'growUp 1s ease-in-out',
+			},
 		},
 		container: {
 			center: true,
