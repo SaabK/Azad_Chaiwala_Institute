@@ -12,7 +12,7 @@ function Courses() {
         <div className="grid grid-cols-6 gap-4 gap-y-16 2xl:gap-y-20">
           {
             coursesData.map((data, index) => (
-              <CoursesCard name={data.name} description={data.description} image={data.image} yellowImage={data.yellowImage} duration={data.duration} price={data.price} pr_price={data.pr_price} words={data.words} popular={data.popular} key={index} />
+              <CoursesCard name={data.name} description={data.description} image={data.image} yellowImage={data.yellowImage} duration={data.duration} price={data.price} pr_price={data.pr_price} popular={data.popular} key={index} />
             ))
           }
         </div>
