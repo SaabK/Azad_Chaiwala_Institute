@@ -1,5 +1,6 @@
 import affiliateProgram from '../assets/images/affiliate-program.png';
 import { coursesData } from '../data/data';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import CoursesCard from "./CoursesCard";
 
@@ -7,7 +8,7 @@ function Courses() {
 
   return (
     <div className="bg-white">
-      <img src={affiliateProgram} alt="Join our affiliate program" className='cursor-pointer mb-10' />
+      <LazyLoadImage src={affiliateProgram} alt="Join our affiliate program" className='cursor-pointer mb-10' />
       <section className="container py-5 flex flex-col gap-20 2xl:pt-9">
         <div className="grid grid-cols-6 gap-4 gap-y-16 2xl:gap-y-20">
           {

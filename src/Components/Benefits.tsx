@@ -1,6 +1,7 @@
 import affiliateProgramVertical from '../assets/images/affiliate-program-vertical.png';
 import Comparison from './Comparison';
 import Platforms from './Platforms';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Benefits() {
   return (
@@ -10,7 +11,7 @@ function Benefits() {
           <Platforms />
           <Comparison />
         </div>
-        <img src={affiliateProgramVertical} alt="Join our affiliate program" className='hidden xl:block self-stretch' />
+        <LazyLoadImage src={affiliateProgramVertical} alt="Join our affiliate program" className='hidden xl:block self-stretch' />
       </section>
     </div>
   )
