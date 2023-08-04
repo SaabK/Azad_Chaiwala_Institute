@@ -5,7 +5,6 @@ export type ButtonPropsType = {
 }
 
 export type CoursesCardPropsType = {
-  words?: number,
   popular?: boolean,
   name: string,
   description: string,
